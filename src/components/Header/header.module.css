@@ -2,5 +2,5 @@
    align-items: center;
     display: flex;
     justify-content: space-around;
-    border-bottom: black
+    border-bottom-color: black;
 }

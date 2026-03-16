@@ -2,7 +2,8 @@ import { useState } from 'react'
 import styles from './app.module.css'
 import Header from './components/Header'
 import Categories from './components/Categories'
-import  HeroCategory from './components/HeroCategory'
+import CategoriesContainer from './components/CategoriesContainer'
+import  MainCategory from './components/MainCategory'
 
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
     <>
       <Header/>
       <div className={styles.mainContainer}>
-        <HeroCategory/>
-        <Categories/>
+        <MainCategory/>
+        <CategoriesContainer />
       </div>
     
     </>

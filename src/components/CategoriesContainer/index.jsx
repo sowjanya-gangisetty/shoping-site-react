@@ -4,18 +4,23 @@ import Categories  from '../Categories'
 
 export const categoriesData = [
     {
-        name : "Man's Fashion",
-        Items : "23",
+        name : "men",
+        items : "232",
         image : "men.jpeg"
     },
     {
-        name : "Kid's Fashion",
+        name : "kids",
         items : "123",
         image : "kids.jpeg"
     },
      {
-        name : "Kid's Fashion",
-        items : "123",
+        name : "cosmetics",
+        items : "15",
+        image : "kids.jpeg"
+    },
+    {
+        name : "accessories",
+        items : "25",
         image : "kids.jpeg"
     }
 ]
