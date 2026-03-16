@@ -2,7 +2,8 @@
    align-items: center;
     display: flex;
     justify-content: space-around;
-    border-bottom-color: black;
+    border-bottom: 2px solid black;
+    
 }
 @media screen and (max-width:768px){
     .headerContainer{

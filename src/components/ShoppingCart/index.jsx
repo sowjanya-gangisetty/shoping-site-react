@@ -4,7 +4,7 @@ import { RxBackpack } from "react-icons/rx";
 const ShopingCart = () => {
     return(
         <div className={styles.cart}>
-            <RxBackpack />
+            <RxBackpack size={30}/>
         </div>
     )
 }

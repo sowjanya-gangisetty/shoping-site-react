@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 
 
-const  categories = ["Men", "Women", "Kids", "Cosmetics" , "Accessories"]
+const  categories = ["Home", "Men", "Women", "Kids", "Cosmetics" , "Accessories"]
 
 
 const Navigation = () => {
