@@ -2,11 +2,9 @@
     color: black;
     padding: 16px 64px;
     position: relative;
-    display: flex;
 }
 .navContainer {
     display: flex;
-    
 }
 .menuItems {
     display: flex;
@@ -23,7 +21,6 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-
 .category:hover{
   color: red;
   text-decoration: underline;
@@ -33,13 +30,10 @@
 }
 @media screen and (max-width:768px) {
 
-    .navigation  {
-      flex-direction: column;
-      padding: 16px;
-    }
     .menuItems {
         flex-flow: column;
         width: 100%;
+        align-items: center;
     }
     .navContainer {
         display: none;
