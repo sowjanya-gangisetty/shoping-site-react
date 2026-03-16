@@ -4,3 +4,8 @@
     justify-content: space-around;
     border-bottom-color: black;
 }
+@media screen and (max-width:768px){
+    .headerContainer{
+        flex-direction:column;
+    }
+}
