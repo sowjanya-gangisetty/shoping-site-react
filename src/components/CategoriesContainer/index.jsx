@@ -10,12 +10,12 @@ export const categoriesData = [
     },
     {
         name : "Kid's Fashion",
-        Items : "123",
+        items : "123",
         image : "kids.jpeg"
     },
      {
         name : "Kid's Fashion",
-        Items : "123",
+        items : "123",
         image : "kids.jpeg"
     }
 ]

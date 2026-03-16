@@ -192,3 +192,7 @@ body{
   margin: 0;
   height: 100vh;
 }
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+}

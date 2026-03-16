@@ -7,7 +7,7 @@
     
 }
 .categoryContainer{
-    background-image: url(../../assets/images/ShopAssets/men.jpeg);
+    
     height:500px;
     width: 500px;
     border-radius: 10px;
@@ -30,4 +30,20 @@
 .shopBtn{
     height: 50px;
     width: auto;
+    cursor: pointer;
+}
+.shopBtn:hover{
+    color: red;
+}
+.men {
+    background-image: url(../../assets/images/ShopAssets/men.jpeg);
+}
+.kids{
+    background-image: url(../../assets/images/ShopAssets/kids.jpeg);
+}
+.cosmetics{
+    background-image: url(../../assets/images/ShopAssets/cosmetics.jpeg);
+}
+.accessories{
+    background-image: url(../../assets/images/ShopAssets/accessories.jpeg);
 }
