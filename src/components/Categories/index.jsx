@@ -10,8 +10,6 @@ const Categories = ({name, items}) => {
                 <p className={styles.item}> {items} Items  </p>
                 <p className={styles.shopBtn}>Shop now</p>
             </div>
-            
-            
         </div>
     )
 }
